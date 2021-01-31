@@ -1,0 +1,135 @@
+/* todo FONTS */
+/* способ подключения через гугл шрифта "Amatic SC" для заголовка странички*/
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+/* способ через сохранение в файлы остальных шрифтов в проекте */
+@font-face {
+    font-family: 'Ropa Sans Pro';
+    src: url('../fonts/RopaSansPro-Regular.woff2') format('woff2'),
+        url('../fonts/RopaSansPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Ropa Sans Pro';
+    src: url('../fonts/RopaSansPro-Italic.woff2') format('woff2'),
+        url('../fonts/RopaSansPro-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'PF BeauSans Pro';
+    src: url('../fonts/PFBeauSansPro-ThinItalic.woff2') format('woff2'),
+        url('../fonts/PFBeauSansPro-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'PF BeauSans Pro';
+    src: url('../fonts/PFBeauSansPro-Bold.woff2') format('woff2'),
+        url('../fonts/PFBeauSansPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* todo REZET-STYLE */
+*,*::before,*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body {
+	color: #9a9a9a;
+	line-height: 1;
+	font-family: "Lato", sans-serif;
+}
+
+
+/* todo MAIN-STYLE */
+/* header */
+.header__title {
+	color: rgb(3, 94, 0);
+	text-align: center;
+	font-size: 60px;
+	text-shadow: 4px 2px 4px rgba(40, 12, 161, 0.6);
+	font-family: 'Amatic SC', cursive;
+	word-spacing: 20px;
+	line-height: 150%;
+}
+.header__description {
+	font-family: 'Ropa Sans Pro';
+	font-weight: normal;
+	font-style: normal;
+	text-transform: uppercase;
+	text-align: center;
+	word-spacing: 5px;
+}
+.header__description__yellow {
+	color: rgb(170, 153, 0);
+}
+.header__description__blue {
+	color: blue;
+}
+
+/* main */
+.main {
+	font-family: 'PF BeauSans Pro';
+	font-weight: 100;
+	font-style: italic;
+	color: rgb(54, 54, 54);
+}
+.block-1__content, .block-2__content, .block-3__content {
+	text-indent: 50px;
+	word-spacing: 5px;
+}
+.span__bold {
+	color: rgb(64, 95, 49);
+	font-weight: bold;
+	font-style: normal;
+}
+.span__yellow {
+	color: rgb(170, 116, 0);
+}
+.block-3__list {
+	text-indent: 10px;
+}
+
+/* footer */
+.footer {
+	font-family: 'Ropa Sans Pro';
+	font-weight: normal;
+	font-style: italic;
+	color: rgba(40, 12, 161, 0.6);
+	text-align: center;
+	text-transform: uppercase;
+}
+.footer__link {
+	font-weight: bold;
+	font-style: normal;
+	color: rgb(0, 105, 5);
+}
+
+
+
+
+
